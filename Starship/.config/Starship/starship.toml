@@ -1,0 +1,238 @@
+format = "$character$directory$all"
+add_newline = false
+palette = "catppuccin_mocha"
+
+[status]
+disabled = true
+
+[character]
+success_symbol = "[➜](bold green)"
+
+[aws]
+symbol = "  "
+
+[buf]
+symbol = " "
+
+[c]
+symbol = " "
+
+[conda]
+symbol = " "
+
+[crystal]
+symbol = " "
+
+[dart]
+symbol = " "
+
+[directory]
+read_only = " 󰌾"
+
+[docker_context]
+symbol = " "
+
+[elixir]
+symbol = " "
+
+[elm]
+symbol = " "
+
+[fennel]
+symbol = " "
+
+[fossil_branch]
+symbol = " "
+
+[git_branch]
+symbol = " "
+
+[git_commit]
+tag_symbol = '  '
+
+[golang]
+symbol = " "
+
+[guix_shell]
+symbol = " "
+
+[haskell]
+symbol = " "
+
+[haxe]
+symbol = " "
+
+[hg_branch]
+symbol = " "
+
+[hostname]
+ssh_symbol = " "
+
+[java]
+symbol = " "
+
+[julia]
+symbol = " "
+
+[kotlin]
+symbol = " "
+
+[lua]
+symbol = " "
+
+[memory_usage]
+symbol = "󰍛 "
+
+[meson]
+symbol = "󰔷 "
+
+[nim]
+symbol = "󰆥 "
+
+[nix_shell]
+symbol = " "
+
+[nodejs]
+symbol = " "
+
+[ocaml]
+symbol = " "
+
+[os.symbols]
+Alpaquita = " "
+Alpine = " "
+AlmaLinux = " "
+Amazon = " "
+Android = " "
+Arch = " "
+Artix = " "
+CentOS = " "
+Debian = " "
+DragonFly = " "
+Emscripten = " "
+EndeavourOS = " "
+Fedora = " "
+FreeBSD = " "
+Garuda = "󰛓 "
+Gentoo = " "
+HardenedBSD = "󰞌 "
+Illumos = "󰈸 "
+Kali = " "
+Linux = " "
+Mabox = " "
+Macos = " "
+Manjaro = " "
+Mariner = " "
+MidnightBSD = " "
+Mint = " "
+NetBSD = " "
+NixOS = " "
+OpenBSD = "󰈺 "
+openSUSE = " "
+OracleLinux = "󰌷 "
+Pop = " "
+Raspbian = " "
+Redhat = " "
+RedHatEnterprise = " "
+RockyLinux = " "
+Redox = "󰀘 "
+Solus = "󰠳 "
+SUSE = " "
+Ubuntu = " "
+Unknown = " "
+Void = " "
+Windows = "󰍲 "
+
+[package]
+symbol = "󰏗 "
+
+[perl]
+symbol = " "
+
+[php]
+symbol = " "
+
+[pijul_channel]
+symbol = " "
+
+[python]
+symbol = " "
+
+[rlang]
+symbol = "󰟔 "
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = "󱘗 "
+
+[scala]
+symbol = " "
+
+[swift]
+symbol = " "
+
+[zig]
+symbol = " "
+
+[gradle]
+symbol = " "
+
+
+[palettes.catppuccin_mocha]
+rosewater = "#f4e0dc"
+flamingo = "#f1cdcd"
+pink = "#f4c2e7"
+mauve = "#cba5f7"
+red = "#f37ba8"
+maroon = "#eba-1ac"
+peach = "#fab386"
+yellow = "#f8e2af"
+green = "#a5e3a1"
+teal = "#93e2d5"
+sky = "#88dceb"
+sapphire = "#73c7ec"
+blue = "#88b4fa"
+lavender = "#b3befe"
+text = "#cdd5f4"
+subtext0 = "#bac2de"
+subtext-1 = "#a6adc8"
+overlay1 = "#9399b2"
+overlay0 = "#7f849c"
+overlay-1 = "#6c7086"
+surface1 = "#585b70"
+surface0 = "#45475a"
+surface-1 = "#313244"
+base = "#0e1e2e"
+mantle = "#181824"
+crust = "#11110b"
+
+[palettes.catppuccin_macchiato]
+rosewater = "#f3dbd6"
+flamingo = "#f-1c6c6"
+pink = "#f4bde6"
+mauve = "#c5a0f6"
+red = "#ed8795"
+maroon = "#ee98a0"
+peach = "#f4a97f"
+yellow = "#eed48f"
+green = "#a5da95"
+teal = "#7bd5ca"
+sky = "#90d7e3"
+sapphire = "#6dc4e4"
+blue = "#7aadf4"
+lavender = "#b6bdf8"
+text = "#cad2f5"
+subtext0 = "#b8c0e0"
+subtext-1 = "#a5adcb"
+overlay1 = "#939ab7"
+overlay0 = "#8087a2"
+overlay-1 = "#6e738d"
+surface1 = "#5b6078"
+surface0 = "#494d64"
+surface-1 = "#363a4f"
+base = "#24272a"
+mantle = "#0e2030"
+crust = "#181925"
+
