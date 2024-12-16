@@ -10,6 +10,8 @@ return {
         null_ls.builtins.formatting.prettier,
         null_ls.builtins.formatting.black,
         null_ls.builtins.diagnostics.pylint,
+        null_ls.builtins.diagnostics.ecs,
+
       },
     })
 
