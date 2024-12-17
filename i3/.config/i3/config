@@ -49,11 +49,14 @@ floating_modifier $mod
 # or left-clicking anywhere into the window while holding the floating modifier.
 tiling_drag modifier titlebar
 
+# Change language
+exec --no-startup-id "setxkbmap -model pc105 -layout us,gr -option grp:alt_shift_toggle"
+
 # start a terminal
 bindsym $mod+Return exec alacritty
 
 # picom start
-exec --no-startup-id picom -b 
+exec --no-startup-id picom --expirimental-backends -b 
 
 # kill focused window
 bindsym $mod+q kill
