@@ -16,7 +16,7 @@ return {
     "williamboman/mason-lspconfig.nvim",
     config = function()
       require("mason-lspconfig").setup({
-          ensure_installed = { "lua_ls", "ts_ls", "rubocop", "eslint", "solargraph" }
+          ensure_installed = { "lua_ls", "ts_ls", "eslint", "solargraph" }
       })
     end
   },
@@ -32,9 +32,6 @@ return {
       lspconfig.ts_ls.setup ({
         capabilities = capabilities
       })
-      lspconfig.rubocop.setup ({
-        capabilities = capabilities
-      })
 
       lspconfig.eslint.setup ({
         capabilities = capabilities
@@ -43,9 +40,11 @@ return {
       lspconfig.solargraph.setup ({
         capabilities = capabilities
       })
+
       lspconfig.pyright.setup ({
         capabilities = capabilities
       })
+
       lspconfig.sqlls.setup ({
         capabilities = capabilities
       })

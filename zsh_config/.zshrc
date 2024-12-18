@@ -4,6 +4,8 @@ HISTSIZE=1000
 SAVEHIST=1000
 setopt autocd
 bindkey -v
+export VISUAL=nvim
+export EDITOR=nvim
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/kostas/.zshrc'
@@ -28,6 +30,9 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 # LS_Colors
 export LS_COLORS="$(vivid generate catppuccin-mocha)"
+
+# Zoxide
+eval "$(zoxide init zsh)"
 
 # Aliases
 alias ls="ls --color=auto"
