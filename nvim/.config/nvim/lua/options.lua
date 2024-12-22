@@ -9,7 +9,7 @@ vim.o.expandtab = true
 vim.o.smartindent = true
 vim.o.wrap = false
 
--- Search 
+-- Search
 vim.o.incsearch = true
 vim.o.ignorecase = true
 vim.o.smartcase = true
@@ -37,5 +37,3 @@ vim.o.splitbelow = true
 vim.o.autochdir = false
 vim.o.modifiable = true
 vim.o.encoding = "UTF-8"
-
-
