@@ -22,6 +22,9 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 eval "$(starship init zsh)"
 export STARSHIP_CONFIG=~/.config/Starship/starship.toml
 
+# Bootdev 
+export PATH=$PATH:$HOME/go/bin
+
 # Bat theme
 BAT_THEME="Catppuccin Mocha"
 
@@ -32,7 +35,7 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export LS_COLORS="$(vivid generate catppuccin-mocha)"
 
 # Zoxide
-eval "$(zoxide init zsh)"
+eval "$(zoxide init --cmd cd zsh)"
 
 # Aliases
 alias ls="ls --color=auto"
