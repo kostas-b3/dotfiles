@@ -17,6 +17,7 @@ compinit
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
 
 # Starship
 eval "$(starship init zsh)"
@@ -42,3 +43,6 @@ alias ls="ls --color=auto"
 alias pacup="sudo pacman -Syu"
 alias pacin="sudo pacman -S"
 alias pacrm="sudo pacman -Rns"
+
+# Fastfetch
+fastfetch
