@@ -39,10 +39,26 @@ export LS_COLORS="$(vivid generate catppuccin-mocha)"
 eval "$(zoxide init --cmd cd zsh)"
 
 # Aliases
-alias ls="ls --color=auto"
+# alias ls="ls --color=auto"
+alias grubup="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias pacup="sudo pacman -Syu"
 alias pacin="sudo pacman -S"
 alias pacrm="sudo pacman -Rns"
+alias tarnow='tar -acf '
+alias untar='tar -zxvf '
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias ......='cd ../../../../..'
+alias cleanup='sudo pacman -Rns (pacman -Qtdq)'
+
+# Replace ls with eza
+alias ls='eza -al --color=always --group-directories-first --icons' # preferred listing
+alias la='eza -a --color=always --group-directories-first --icons'  # all files and dirs
+alias ll='eza -l --color=always --group-directories-first --icons'  # long format
+alias lt='eza -aT --color=always --group-directories-first --icons' # tree listing
+alias l.="eza -a | grep -e '^\.'"                                     # show only dotfiles
 
 # Fastfetch
 fastfetch
