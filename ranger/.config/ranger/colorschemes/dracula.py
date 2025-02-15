@@ -5,22 +5,22 @@
 
 from __future__ import absolute_import, division, print_function
 
-from ranger.gui.colorscheme import ColorScheme
 from ranger.gui.color import (
     black,
     blue,
+    bold,
     cyan,
+    default,
+    default_colors,
     green,
     magenta,
+    normal,
     red,
+    reverse,
     white,
     yellow,
-    default,
-    normal,
-    bold,
-    reverse,
-    default_colors,
 )
+from ranger.gui.colorscheme import ColorScheme
 
 
 class Dracula(ColorScheme):

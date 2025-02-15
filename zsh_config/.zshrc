@@ -5,7 +5,10 @@ SAVEHIST=1000
 setopt autocd
 bindkey -v
 export VISUAL=nvim
+export VISUAL EDITOR=nvim
 export EDITOR=nvim
+
+export PATH="$PATH:$HOME/repos/worldbanc/private/bin"
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/kostas/.zshrc'
@@ -20,6 +23,12 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 # Starship
 eval "$(starship init zsh)"
 export STARSHIP_CONFIG=~/.config/Starship/starship.toml
+
+#sql-language-server
+export PATH="$PATH:$HOME/usr/bin/sql-language-server"
+
+#Ruby
+export PATH=$PATH:$HOME/.local/share/gem/ruby/3.3.0/bin
 
 # Bootdev 
 export PATH=$PATH:$HOME/go/bin
@@ -60,3 +69,6 @@ alias l.="eza -a | grep -e '^\.'"                                     # show onl
 
 # Fastfetch
 fastfetch
+
+# Generated for envman. Do not edit.
+[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"

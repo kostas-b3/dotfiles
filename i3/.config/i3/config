@@ -54,6 +54,7 @@ exec --no-startup-id setxkbmap -model pc105 -layout "us(altgr-intl),gr" -option 
 # exec --no-startup-id "setxkbmap -model pc105 -layout us,gr -option grp:alt_shift_toggle"
 # exec --no-startup-id "setxkbmap -layout us,gr"
 # exec --no-startup-id "setxkbmap -option 'grp:alt_shift_toggle'"
+# exec --no-startup-id /usr/bin/setxkbmap -option "caps:swapescape"
 
 # start a terminal
 # bindsym $mod+Return exec alacritty
