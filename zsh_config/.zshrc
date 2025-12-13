@@ -47,7 +47,7 @@ eval "$(zoxide init --cmd cd zsh)"
 
 # Aliases
 # alias ls="ls --color=auto"
-alias grubup="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+# alias grubup="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias pacup="sudo pacman -Syu"
 alias pacin="sudo pacman -S"
 alias pacrm="sudo pacman -Rns"
