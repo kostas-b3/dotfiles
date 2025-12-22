@@ -62,7 +62,7 @@ exec --no-startup-id setxkbmap -model pc105 -layout "us(altgr-intl),gr" -option 
 bindsym $mod+Return exec alacritty
 
 # picom start
-exec --no-startup-id picom --expirimental-backends -b 
+exec --no-startup-id picom -b 
 
 # kill focused window
 bindsym $mod+q kill
@@ -220,3 +220,6 @@ exec --no-startup-id nitrogen --restore &
 
 # Polybar script
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+
+# Set monitor refresh rate
+exec --no-startup-id xrandr -- DisplayPort-1 --rate 240

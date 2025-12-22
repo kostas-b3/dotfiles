@@ -161,12 +161,12 @@
         //     "keyColor": "blue",
         //     "timeout": 1000
         // },
-        {
-            "type": "wifi",
-            "key": "├─",
-            "format": "{ssid}",
-            "keyColor": "blue"
-        },
+        // {
+        //     "type": "wifi",
+        //     "key": "├─",
+        //     "format": "{ssid}",
+        //     "keyColor": "blue"
+        // },
         {
             "type": "locale",
             "key": "╰─",
