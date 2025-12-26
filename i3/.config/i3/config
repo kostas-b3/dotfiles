@@ -222,4 +222,7 @@ exec --no-startup-id nitrogen --restore &
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Set monitor refresh rate
-exec --no-startup-id xrandr -- DisplayPort-1 --rate 240
+exec --no-startup-id xrandr -- DisplayPort-1 --primary --mode 2560x1440 --pos 0x0 --rate 144
+
+#Autotiling start
+exec_always --no-startup-id autotiling

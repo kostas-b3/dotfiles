@@ -171,29 +171,3 @@ textbox-prompt-colon {
     str:        ":";
     text-color: inherit;
 }
-
-configuration{
-  icon-theme: "FiraCode Nerd Font 10";
-  show-icons: true;
-  terminal: "alacritty";
-}
-
-// @import "catppuccin-mocha"
-//
-// configuration{
-//     modi: "run,drun,window";
-//     icon-theme: "FiraCode Nerd Font 10";
-//     show-icons: true;
-//     terminal: "alacritty";
-//     drun-display-format: "{icon} {name}";
-//     location: 0;
-//     disable-history: false;
-//     hide-scrollbar: true;
-//     display-drun: "   Apps ";
-//     display-run: "   Run ";
-//     display-window: " 󰕰  Window";
-//     display-Network: " 󰤨  Network";
-//     sidebar-mode: true;
-// }
-
-// @theme "/usr/share/rofi/themes/purple.rasi"
