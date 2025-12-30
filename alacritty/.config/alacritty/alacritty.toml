@@ -9,7 +9,7 @@ WINIT_X11_SCALE_FACTOR = "1"
 # style = "Regular"
 
 [font]
-normal = { family = "JetBrainsMono Nerd Font", style = "Regular"}
+normal = { family = "FIraCode Nerd Font", style = "Regular"}
 size = 14.0
 builtin_box_drawing = true
 
@@ -17,7 +17,7 @@ builtin_box_drawing = true
 dynamic_padding = true
 decorations = "full"
 title = "Alacritty@CachyOS"
-opacity = 0.8
+opacity = 0.95
 decorations_theme_variant = "Dark"
 
 [window.dimensions]
